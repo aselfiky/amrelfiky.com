@@ -7,7 +7,10 @@
   <body>
       <div class="text">
         <div>
-          <h1><%= title %></h1>
+          <div style="display: inline-block">
+            <h1 style="float: left"><%= title %></h1>
+            <h1 class="flash">|</h1>
+          </div>
           <p>Computer Scientist | Student | Sports Fanatic | Food Enthusiast</p>
           <form action="/users" method="GET">
             <button>About Me</button>
