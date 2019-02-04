@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-      <div class="text">
-        <div>
-          <div style="display: inline-block">
-            <h1 style="float: left"><%= title %></h1>
-            <h1 class="flash">|</h1>
-          </div>
-          <p>Computer Scientist | Student | Sports Fanatic | Food Enthusiast</p>
-          <form action="/users" method="GET">
-            <button>About Me</button>
-          </form>
-        </div>
-      </div>
-  </body>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%= title %></title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<div class="text">
+  <div>
+    <div style="display: inline-block">
+      <h1 style="float: left; text-indent: 1em"><%=title%></h1>
+      <h1 class="flash">|</h1>
+    </div>
+    <p>Computer Scientist | Student | Sports Fanatic | Food Enthusiast</p>
+    <div class="links">
+      <button class="linkedin">
+        <span>
+          <a href="https://www.linkedin.com/in/amrelfiky/">LinkedIn</a>
+        </span>
+      </button>
+      <button class="github">
+        <span>
+          <a href="https://github.com/aselfiky">GitHub</a>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+</body>
 </html>
