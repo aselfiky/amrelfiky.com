@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>404 NotFoundError</title>
+    <title><%= error.status %> <%= message %></title>
     <link rel='stylesheet' href='/stylesheets/404.css'/>
 </head>
 <body>
-    <div class="notfounderror">
+    <div class="error">
         <h1><%= error.status %> <%= message %></h1>
     </div>
     <!--<pre><%= error.stack %></pre>-->
