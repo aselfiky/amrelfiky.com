@@ -3,7 +3,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><%= title %></title>
-  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel='stylesheet' href='/stylesheets/style.css'/>
 </head>
 <body>
 <div class="text">
@@ -24,6 +24,15 @@
           <a href="https://github.com/aselfiky">GitHub</a>
         </span>
       </button>
+    </div>
+    <div>
+      <form action="/users/myaction" method="post">
+        <fieldset>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" />
+          <input type="submit" value="Send message" />
+        </fieldset>
+      </form>
     </div>
   </div>
 </div>

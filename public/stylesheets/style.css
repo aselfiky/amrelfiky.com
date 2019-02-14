@@ -19,8 +19,10 @@ p {
 }
 
 .links {
-    padding-top: 2%;
+    width:100%;
     direction: rtl;
+    text-align: center;
+    background-color: coral;
 }
 
 .linkedin {
@@ -37,18 +39,23 @@ p {
     background-color: lightslategray;
 }
 
+.inner {
+    display: inline-block;
+}
+
 button {
+    height: 100%;
+    padding-top: 5px;
+    padding-bottom: 4px;
     border-radius: 10px;
     border: none;
     transition: all 0.5s;
     cursor: pointer;
     width: 150px;
-    height: 39px;
 }
 
 button span {
     cursor: pointer;
-    display: inline-block;
     position: relative;
     transition: 0.5s;
 }
@@ -94,7 +101,6 @@ button:hover span:after {
 }
 
 a {
-    padding: 0;
     color: white;
     text-decoration: none;
 }
