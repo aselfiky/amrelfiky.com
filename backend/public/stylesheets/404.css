@@ -1,0 +1,22 @@
+body, html {
+    background-image: url("../images/tyler.gif");
+
+    height: 100%;
+    width: 100%;
+    display: table;
+    align-items: center;
+}
+
+.error {
+    justify-content: center;
+    align-items: center;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.error h1 {
+    font: 90px 'Roboto Slab', serif, monospace;
+    color: #F5F5DC;
+    font-weight: lighter;
+}
